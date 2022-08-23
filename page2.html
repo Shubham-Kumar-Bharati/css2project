@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4f05a9f818.js" crossorigin="anonymous"></script>
+    <style>
+      .grid-container{
+         /* border: 0.25px solid gray; */
+        
+         /* position: relative;
+         top: 10px;
+         left: 240px; */
+         background-image: url(./Screenshot\ \(252\).png);
+         max-width: 100vw;
+         min-height: 100vh;
+         
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         display: flex;
+         flex-flow: row wrap;
+         
+      }
+      .grid-item{
+        border: 1px solid #C2C2C2;
+        max-width: 300px;
+        min-height: 150px;
+        border-radius: 5px;
+        position: absolute;
+        top: 250px;
+        left: 500px;
+        background-color: #FFFFFF;
+
+      }
+      .addnewtask{
+        padding-left: 10px;
+        padding-top: 10px;
+        display: inline-block;
+      }
+      .cross{
+        position: relative;
+        left: 150px;
+      }
+      .text{
+        margin-left: 10px;
+        margin-top: 20px;   
+      }
+      .submit{
+        position: absolute;
+        top: 100px;
+        left: 180px;
+      }
+     
+     @media (min-width:575px) and (max-width:840px){
+        .grid-item{
+        position: absolute;
+        top: 250px;
+        left: 230px;
+      }
+    }
+      @media (min-width:375px) and (max-width:575px) {
+        .grid-item{
+        position: absolute;
+        top: 250px;
+        left: 80px;
+      }
+      }
+     @media (max-width:375px){
+        .grid-item{
+        position: absolute;
+        top: 250px;
+        left: 30px;
+      }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item"> 
+           <div class="addnewtask">Add New Task</div>
+           <a href="./page1.html"><i class="fa-solid fa-xmark cross"></i></a>
+           <div><hr></div>
+           <div class="text"><input type="text" placeholder="Learn C++" 
+                size="35" 
+                style="border-color: transparent;color:#858585;background-color:#EDEDED">
+           </div>
+           <div class="submit"><input type="submit" value="+Add Task" 
+                style="height: 30px;width: 100px;color: #FFFFFF;background-color: #00A5EC;border-color: transparent;">
+           </div>
+        </div>
+    </div>
+</body>
+</html>
